@@ -38,7 +38,7 @@ When clustering with PCA using 7 componenets (and displaying cluster membership 
   
 ![](figs/PCA/PCA-tsne-7.png)
   
-For more results, see the [full report](https://github.com/mkcyoung/galactic-clustering/blob/main/Data%20Mining%20Final%20Report.pdf) or [poster](https://github.com/mkcyoung/galactic-clustering/blob/main/galaxy_poster_v2.pdf).
+For more results and a more in-depth discussion, see the [full report](https://github.com/mkcyoung/galactic-clustering/blob/main/Data%20Mining%20Final%20Report.pdf) or [poster](https://github.com/mkcyoung/galactic-clustering/blob/main/galaxy_poster_v2.pdf).
 
 ## Acknowledgements
 This was the final project for the course CS 6140: Data Mining, taught by [Jeff Phillips](https://www.cs.utah.edu/~jeffp/) at the Universtiy of Utah. The poster for the project ranked in the top three for "best poster" in the poster session at the end of the semester. My partner for this project was Fangfei Lan. Her contributions centered around performing the cluster comparisons. 
