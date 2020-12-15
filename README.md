@@ -34,7 +34,8 @@ distributed near the bottom but also near the
 top, suggesting that the network may have had a difficult time learning the features of these.
 ![](figs/tsne/tsne-galaxies.png)
   
-When clustering with PCA using 7 componenets (and displaying cluster membership on a t-SNE plot), we see qualitatitively that the result is fairly close to the "ground truth" t-SNE plot above. 
+When clustering with PCA using 7 componenets (and displaying cluster membership on a t-SNE plot), we see qualitatitively that the result is fairly close to the "ground truth" t-SNE plot above.   
+  
 ![](figs/PCA/PCA-tsne-7.png)
   
 For more results, see the [full report](https://github.com/mkcyoung/galactic-clustering/blob/main/Data%20Mining%20Final%20Report.pdf) or [poster](https://github.com/mkcyoung/galactic-clustering/blob/main/galaxy_poster_v2.pdf).
