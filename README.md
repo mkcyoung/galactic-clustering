@@ -12,11 +12,12 @@
 
 ## An exploration (through dimensionality reduction and clustering) of the features learned in a CNN trained on crowd-source-labeled galaxy images.
 
-
+There’s a veritable deluge (think: petabytes) of astronomical data being generated from surveys like the Sloan Digital Sky Survey (SDSS). In fact, there is far more data out there than could be analyzed by expert astronomers within a reasonable time frame. In order to meet this daunting data challenge, researchers are pursuing many different strategies such as crowd-sourcing classification tasks, data mining and machine learning techniques aimed at classifying and discovering insights from survey data. This project is focused on the intersection of these methods: **we seek to explore (through dimensionality reduction and clustering) the features learned in a convolutional neural network (CNN) trained on crowd-source-labeled galaxy images.**
 
 ## Training a CNN
+The dataset we used came from a [Galaxy Zoo kaggle competition](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge/data) launched in 2013. The dataset includes more than 130,000 images of galaxies. 61,578 of these images were labeled by the Galaxy Zoo participants. The ‘labels’ were the percentages of responses to 37 questions asked of each volunteer during the galaxy classification. In order to develop a succinct way for us to ‘label’ galaxies, we followed the questionnaire decision tree and labeled galaxies based on their highest percentage responses. This created a total of 8 different galaxy labels.
 
-
+A random subset of 30,000 of these labeled images were used to train and validate our CNN. We found that training with ResNet34 (pretrained on ImageNet), yielded the best results. After our CNN was trained, we fed in a random subset of 20,000 images and extracted the last fully connected layer to produce a “CNN code” or feature vector corresponding to each image. It was on this set of 20,000, 512-element feature vectors that we performed our dimensionality reduction and clustering.
 
 ## Dimensionality reduction & clustering
 
